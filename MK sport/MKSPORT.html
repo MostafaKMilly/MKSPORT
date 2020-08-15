@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>MK Sport</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="MKSPORT.css">
+    <script src="MKSPORT.js" async></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(window).scroll(function () {
+            if ($(document).scrollTop() < 410) {
+                $('nav').addClass('bg-transparent');
+            } else {
+                $('nav').removeClass('bg-transparent');
+            }
+        });
+    </script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mo">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img style="width: 51px;" data-src="gym.png" class="lazyload" alt="">
+            </a>
+            <button class="navbar-toggler" onclick="myfun();" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Shop</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active lazyload"
+                    style="background-image: url('https://images.unsplash.com/photo-1475293831741-1b69e67acb72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4">Show your best look</h3>
+                        <p class="lead">ًWith our product you can be more brighter</p>
+                    </div>
+                </div>
+                <div class="carousel-item lazyload"
+                    style="background-image: url('https://images.unsplash.com/photo-1574565433117-ed6843f4c02b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4">Warm up</h3>
+                        <p class="lead">Move at your own pace</p>
+                    </div>
+                </div>
+                <div class="carousel-item lazyload"
+                    style="background-image: url('https://images.unsplash.com/photo-1568688574210-419316c9db5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4">The best shoes</h3>
+                        <p class="lead">The best comfortable clothes and shoes.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+    <div class="container-fluid mt-3 p-5 text-center">
+        <div class="row">
+            <h1  class="float-left mb-5 mt-2 col-lg-4 col-md-12 col-sm-12 text-center font-weight-bold">Our Services</h1>
+            <p class="float-right mb-4 mt-3 col-7 d-none d-lg-block lead" style="font-size: 20px;">Our goal is to be the best company to sell
+                clothes at a very cheap price and suitable for all people and to contract
+                with many companies such as Nike , Adidas</p>
+        </div>
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top lazyload img-fluid" data-src="
+                    https://images.unsplash.com/photo-1516258454449-64fed1caa732?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">The best clothes for you</h5>
+                    <p class="card-text">We have the best clothes in excellent quality of natural cotton to suit your movement</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top lazyload"
+                    data-src="https://images.unsplash.com/photo-1584369662616-c024e16f2ae9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Comfortable shoes</h5>
+                    <p class="card-text">We have the best types of comfortable shoes provided by the best international companies such as Adidas
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top lazyload"
+                    data-src="https://images.unsplash.com/photo-1527090526205-beaac8dc3c62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Big quantities</h5>
+                    <p class="card-text">We have large quantities especially for you and we have a lot of workers to serve you</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<section>
+    <div class="container" id="services">
+        <div class="row align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5">
+                    <img class="img-fluid rounded-circle lazyload" data-src="https://images.unsplash.com/photo-1592332394131-377a1cb73cd5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-4 mb-3">Do your favorite hobby</h2>
+                    <p style="line-height: 30px;">We have everything you need to get your favorite sport in action and to compete with your teammates in comfort.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="p-5">
+                    <img class="img-fluid rounded-circle lazyload" data-src="https://images.unsplash.com/photo-1549326483-d8ecdf9611c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="p-5">
+                    <h2 class="display-4 mb-3">The best sports equipment!</h2>
+                    <p>We have all the sports equipment you need and of the best quality</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5">
+                    <img class="img-fluid rounded-circle lazyload" data-src="https://images.unsplash.com/photo-1547333863-d58a53a7d443?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-4 mb-3">Go beyond your dreams!</h2>
+                    <p>Go beyond your dreams with the best facilities that we offer specially for you</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <div class="container">
+        
+        <p >
+            Shop products
+            <br>
+            <span class="font-weight-bold " style="font-size: 30px;">Open 24/7/365</span>
+        </p>
+        <div class="container text-center">
+        <div class="row text-center">
+            <div class="col-lg-4 h-25 col-md-12">
+                <img class="img-fluid lazyload "
+                    data-src="https://images.unsplash.com/photo-1590643471987-f1a796c6e80a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+                <p class="mb-2 mt-3 lead">
+                    Skateboard
+                    <br>
+                    <span class="font-weight-bold">100$</span>
+                </p>
+                <a href="products.html" type="button" class="btn btn-outline-primary">ShopNow</a>
+            </div>
+
+            <div class="col-lg-4 h-25 col-md-12">
+                <img class="img-fluid lazyload"
+                    data-src="https://images.unsplash.com/photo-1523314399-837f3e0c291b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+                <p class="mb-2 mt-3 lead">
+                    Shoes
+                    <br>
+                    <span class="font-weight-bold">50$</span>
+                </p>
+                <a href="products.html" type="button" class="btn btn-outline-primary">ShopNow</a>
+            </div>
+            <div class="col-lg-4 h-25 col-md-12">
+                <img class="img-fluid lazyload"
+                    data-src="https://images.unsplash.com/photo-1585036156261-1e2ac055414d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+                <p class="mb-2 mt-3 lead">
+                    Clothes
+                    <br>
+                    <span class="font-weight-bold">100$</span>
+                </p>
+                <a href="products.html" type="button" class="btn btn-outline-primary">ShopNow</a>
+            </div>
+
+        </div>
+            <a type="button" class="btn btn-outline-dark m-5"  href="products.html"> View all products</a>
+
+        </div>
+    </div>
+
+    <section class="call-to-action text-white text-center lazyload">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mx-auto">
+                    <h2 class="mb-4">Enter your email to view the latest products</h2>
+                </div>
+                <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+                    <form>
+                        <div class="form-row">
+                            <div class="col-12 col-md-9 mb-2 mb-md-0">
+                                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <button type="submit" class="btn btn-block btn-lg btn-primary">Enter</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer bg-light" id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#">Contact</a>
+                        </li>
+                        <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#">Terms of Use</a>
+                        </li>
+                        <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
+                    <p class="text-muted small mb-4 mb-lg-0">&copy; MKSPORT 2020. All Rights Reserved.</p>
+                </div>
+                <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item mr-3">
+                            <a href="#">
+                                <img data-src="facebook (1).png" class="lazyload"style="width:35px"alt="">
+                            </a>
+                        </li>
+                        <li class="list-inline-item mr-3">
+                            <a href="#">
+                                <img data-src="twitter (1).png" class="lazyload"style="width:35px" alt="">
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <img data-src="instagram.png" class="lazyload" style="width:35px" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var lazyloadImages;
+
+            if ("IntersectionObserver" in window) {
+                lazyloadImages = document.querySelectorAll(".lazyload");
+                var imageObserver = new IntersectionObserver(function (entries, observer) {
+                    entries.forEach(function (entry) {
+                        if (entry.isIntersecting) {
+                            var image = entry.target;
+                            image.src = image.dataset.src;
+                            image.classList.remove("lazyload");
+                            imageObserver.unobserve(image);
+                        }
+                    });
+                });
+
+                lazyloadImages.forEach(function (image) {
+                    imageObserver.observe(image);
+                });
+            } else {
+                var lazyloadThrottleTimeout;
+                lazyloadImages = document.querySelectorAll(".lazyload");
+
+                function lazyload() {
+                    if (lazyloadThrottleTimeout) {
+                        clearTimeout(lazyloadThrottleTimeout);
+                    }
+
+                    lazyloadThrottleTimeout = setTimeout(function () {
+                        var scrollTop = window.pageYOffset;
+                        lazyloadImages.forEach(function (img) {
+                            if (img.offsetTop < (window.innerHeight + scrollTop)) {
+                                img.src = img.dataset.src;
+                                img.classList.remove('lazyload');
+                            }
+                        });
+                        if (lazyloadImages.length == 0) {
+                            document.removeEventListener("scroll", lazyload);
+                            window.removeEventListener("resize", lazyload);
+                            window.removeEventListener("orientationChange", lazyload);
+                        }
+                    }, 20);
+                }
+
+                document.addEventListener("scroll", lazyload);
+                window.addEventListener("resize", lazyload);
+                window.addEventListener("orientationChange", lazyload);
+            }
+        })
+    </script>
+    <script>
+        $('.navbar-nav>li>a').on('click', function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+</body>
+
+</html>
